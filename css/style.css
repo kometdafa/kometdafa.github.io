@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.boldtxt{
+    font-weight: 900;
+}
 /*basic function bitch*/
 body{
     font-family: 'Montserrat', sans-serif;
@@ -13,10 +16,7 @@ a{
     text-decoration: none;
 }
 
-.boldy{
-    font-weight: 900;
-}
 /*containter-header*/
-.con-head{
+nav{
 
 }
