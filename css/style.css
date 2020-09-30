@@ -14,6 +14,7 @@ body{
 
 a{
     text-decoration: none;
+    color: none;
 }
 
 /*containter-header*/
@@ -24,4 +25,13 @@ nav{
     min-height: 10vh;
     background-color: blueviolet;
     position: absolute;
+    width: 100%;
+}
+
+.logo a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #ffffff;
 }
