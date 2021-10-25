@@ -9,7 +9,7 @@
 }
 /*basic function bitch*/
 body{
-    /**background-color: black;**/
+    background-color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,7 +39,9 @@ nav{
    max-width: 1200px;
    margin: 0 auto;
 }
-
+.color{
+    color: cornsilk;
+}
 .timeline {
     position: relative;
     max-width: 1200px;
