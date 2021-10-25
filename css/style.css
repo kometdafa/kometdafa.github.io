@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
 .boldtxt{
@@ -10,6 +9,7 @@
 }
 /*basic function bitch*/
 body{
+    /**background-color: black;**/
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,8 +24,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: blueviolet;
-    position: absolute;
     width: 100%;
 }
 
@@ -35,4 +33,21 @@ nav{
     letter-spacing: 1px;
     font-size: 30px;
     color: #ffffff;
+}
+
+.bungkusan_1{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.timeline::after {
+        content: '';
+        width: 2px;
+        background-color: white;
+        height: 50px;
 }
